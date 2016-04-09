@@ -2,7 +2,7 @@ $font-stack: Arial, sans-serif;
 $primary-color: black;
 $text: center;
 $background: #660033;
-$margin: 100px;
+$margin: 70px;
 $marginleft: 20px;
 
 body {
@@ -63,14 +63,27 @@ th, td        { vertical-align: top; text-align: right; }
 
 #div_twelve{
     margin-top: $margin;
-    margin-left: $marginleft;
+    //margin-left: $marginleft;
 }
 
-tr:nth-child(odd)    { background-color:#eee; }
-tr:nth-child(even)    { background-color:#00FF66; }
+tr{
+    :nth-child(odd){
+        background-color: #F2EFFB;
+    }
+    :nth-child(even){
+        background-color: #E6E0F8;
+    }
+}
+
+#result { 
+    border-color: $background; 
+}
+
 input        { text-align: right;  border: none;       }     /* Align input to the right  */
 textarea     { border: outset; border-color: white;       }                        
 table        { border: inset; border-color: white; }
-table.center { margin-left:auto; margin-right:auto; }
-#result      { border-color: red; }
+table.center { 
+    margin-left:auto; 
+    margin-right:auto; 
+}
 tr.error       { background-color: red; }

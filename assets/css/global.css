@@ -48,14 +48,15 @@ th, td {
   background-color: #ECCEF5; }
 
 #div_twelve {
-  margin-top: 100px;
-  margin-left: 20px; }
+  margin-top: 70px; }
 
-tr:nth-child(odd) {
-  background-color: #eee; }
+tr :nth-child(odd) {
+  background-color: #F2EFFB; }
+tr :nth-child(even) {
+  background-color: #E6E0F8; }
 
-tr:nth-child(even) {
-  background-color: #00FF66; }
+#result {
+  border-color: #660033; }
 
 input {
   text-align: right;
@@ -74,10 +75,7 @@ table.center {
   margin-left: auto;
   margin-right: auto; }
 
-#result {
-  border-color: red; }
-
-tr.error {
+textarea.error {
   background-color: red; }
 
 /*# sourceMappingURL=global.css.map */
