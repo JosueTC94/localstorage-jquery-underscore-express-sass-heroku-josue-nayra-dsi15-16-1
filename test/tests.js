@@ -5,7 +5,7 @@ var expect = chai.expect;
 
 describe('Comma separated values',function()
 {
-    describe('Function calculate',function()
+    describe('#Funcion calculate. Mocha, Chai y Sinon',function()
     {
         var sandbox;
         beforeEach(function()

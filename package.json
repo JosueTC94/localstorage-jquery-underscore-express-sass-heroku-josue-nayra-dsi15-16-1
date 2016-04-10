@@ -51,7 +51,10 @@
     "requirejs": "^2.2.0",
     "sass": "^0.5.0",
     "sinon": "^1.17.3",
-    "sinon-chai": "^2.8.0",
-    "start": "^4.0.1"
+    "start": "^4.0.1",
+    "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
   }
 }
