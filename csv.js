@@ -35,6 +35,7 @@ console.log("Accedo a fichero csv.js");
           r.push({ value: result, rowClass: rowclass });
         }
         else {
+          console.error("faalkdsfj");
           var errmsg = 'La fila "' + temp + '" no es un valor de CSV permitido.';
           r.push({value: errmsg.split("").splice(commonLength), rowClass: 'error'});
         }
