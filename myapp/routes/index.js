@@ -1,9 +1,6 @@
 var express = require('express');
 var router = express.Router();
 var calculate = require('../../assets/js/csv.js');
-// Función calculate ---------------------
-
-
 
 /* GET home page. */
 //Se invoca el index. Utilizamos plantilla (/views/index.ejs)

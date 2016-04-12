@@ -1,14 +1,15 @@
 {
-  "name": "Conversor",
+  "name": "localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1",
   "version": "0.0.1",
-  "description": "Conversor javascript de tipos. Karma y Travis",
-  "main": "conversor.js",
+  "description": "Conversor javascript de tipos. Comma Separated Values",
+  "main": "main.js",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS"
+    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
+    "start": "node ./myapp/app.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ULL-ESIT-GRADOII-DSI/karma-y-travis-josue-nayra-dsi15-16-1"
+    "url": "https://github.com/ULL-ESIT-GRADOII-DSI/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1"
   },
   "keywords": [
     "conversor"
@@ -18,7 +19,7 @@
   "bugs": {
     "url": " "
   },
-  "homepage": "https://github.com/alu0100406122/karma-y-travis-josue-nayra-dsi15-16-1",
+  "homepage": "https://github.com/ULL-ESIT-GRADOII-DSI/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1",
   "devDependencies": {
     "blanket": "^1.2.3",
     "chai": "^3.5.0",
