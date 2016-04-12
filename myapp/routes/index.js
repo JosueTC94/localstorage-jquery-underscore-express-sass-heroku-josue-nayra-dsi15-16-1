@@ -15,6 +15,6 @@ router.post('/csv',function(req,res,next)
 {
     var contenido = req.body.original;
     var r = calculate(contenido);
-    res.render('resultado', { resultado: r });
+    res.render('resultado', { items: r });
 });
 module.exports = router;
